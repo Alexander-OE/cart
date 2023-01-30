@@ -1,7 +1,7 @@
 import classes from "./MealsSummary.module.css"
 const MealsSummary = () => {
   return (
-    <section>
+    <section className={classes.summary}>
       <h2>Delicious Food, Delivered To you </h2>
       <p>
         Choose your favourite meal from our board selection of availbe meals and
